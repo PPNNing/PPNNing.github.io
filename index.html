@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gyp's homepage</title>
 </head>
 <body>
-    <h1>WELCOME  TO  MY  HOME PAGE</h1>
+    <h1>WELCOME  TO  MY  HOME PAGE</h1> 
     <hr>
-    <p>  <s>XHY,fuck you</s>  </p>
+    <p>  <s>XHY,fuck you</s>  </p> 
     <p>  <b>Welcome your supervise</b>  </p>
-    <img src="cat.JPG" alt="">
+    <b>Mysterious entrance</b>(Passwords and rewards are different every day): <input type="text" placeholder="Fill in some numbers" id="secretinput">
+    <button onclick="checkSecret()">Enter</button>
+    <img src="./image/cat.JPG" alt="">
+    <br> <br> <br>
+    <p>Want Some Music?</p>
+    <audio src="./music/homepage_music.mp3"   controls loop></audio>
+    <br> <br> <br>
+    <p>Want More Fun?</p>
+    <a href="https://cn.pornhub.com/" target="_blank">Click Here</a>
+    <br> <br> <br> <br>
+    <p>OK,OK,Want Some Documents?</p>
+    <a href="college_document.html">Click Here</a>
+    <script>
+        function checkSecret(){
+            var inputValue = document.getElementById('secretinput').value;
+        if (inputValue === '114514') {
+            window.location.href = 'https://www.bilibili.com/video/BV113411p7BT/'; 
+        } else {
+            alert('Such an idiot');
+        }
+        }
+    </script>
 </body>
 </html>
